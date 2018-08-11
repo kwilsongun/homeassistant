@@ -1,0 +1,65 @@
+sensor.kenneths_iphone_battery_state:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: state_kenneth_sin_iphone
+sensor.kenneths_iphone_battery_level:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: level_kenneth_sin_iphone
+media_player.tvrom:
+  config_entry_id:
+  name:
+  platform: sonos
+  unique_id: RINCON_B8E93734875601400
+media_player.kjkken:
+  config_entry_id:
+  name:
+  platform: sonos
+  unique_id: RINCON_B8E93755C7FE01400
+media_player.stua:
+  config_entry_id:
+  name: Apple TV
+  platform: apple_tv
+  unique_id: c77e473ca7d07f7addbaf0eb5e2a1c4ca664a2f832c38771d06fee5793704a64
+remote.stua:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: c77e473ca7d07f7addbaf0eb5e2a1c4ca664a2f832c38771d06fee5793704a64
+zwave.aeotec_zw090_zstick_gen5_eu:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.aeotec_zw100_multisensor_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-2
+sensor.aeotec_zw100_multisensor_6_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528097
+sensor.aeotec_zw100_multisensor_6_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528225
+binary_sensor.aeotec_zw100_multisensor_6_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076463104
+sensor.aeotec_zw100_multisensor_6_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528065
+sensor.aeotec_zw100_multisensor_6_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528081
