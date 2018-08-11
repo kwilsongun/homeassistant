@@ -75,7 +75,7 @@ sensor:
 
 # Text to speech
 tts:
-  - platform: google
+#  - platform: google
 
 
 media_player:
@@ -90,6 +90,6 @@ zwave:
         usb_path: /dev/ttyACM1
 
 
-        #group: !include groups.yaml
+group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
