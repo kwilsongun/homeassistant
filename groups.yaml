@@ -3,9 +3,23 @@
     icon: mdi:home
     entities:
       - group.multisensor
+      - group.living_room_view
+
   multisensor:
-    name: emmasensor
+    name: Soverom Emma
     entities:
       - sensor.aeotec_zw100_multisensor_6_temperature
       - sensor.aeotec_zw100_multisensor_6_relative_humidity
       - sensor.aeotec_zw100_multisensor_6_luminance
+  
+  living_room_view:
+    name: Stue
+    view: true
+    entities:
+      - remote.stua
+      - media_player.kjkken
+
+  other_view:
+    name: Annet
+    entities:
+      - sensor.yr
