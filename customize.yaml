@@ -1,6 +1,3 @@
-    sensor.aeotec_zw100_multisensor_6_temperature:
-      friendly_name: Emma
-      icon: mdi:thermometer
     sensor.aeotec_zw100_multisensor_6_temperature_5_1:
       friendly_name: "Aeotec Temperature"
       icon: mdi:thermometer
