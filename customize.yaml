@@ -1,6 +1,18 @@
-    sensor.aeotec_zw100_multisensor_6_temperature_5_1:
+    #sensor.aeotec_zw100_multisensor_6_temperature_5_1:
+    sensor.aeotec_zw100_multisensor_6_temperature:
       friendly_name: "Aeotec Temperature"
       icon: mdi:thermometer
     sensor.aeotec_zw100_multisensor_6_relative_humidity:
       friendly_name: "Aeotec Humidity"
       icon: mdi:water
+    sensor.aeotec_zw100_multisensor_6_alarm_type:
+      hidden: true
+    sensor.aeotec_zw100_multisensor_6_alarm_level:
+      hidden: true
+    sensor.aeotec_zw100_multisensor_6_burglar:
+      hidden: true
+    sensor.aeotec_zw100_multisensor_6_sourcenodeid:
+      hidden: true
+    sensor.aeotec_zw100_multisensor_6_ultraviolet:
+      hidden: true
+        
