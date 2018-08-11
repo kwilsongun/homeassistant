@@ -5,6 +5,6 @@ group:
     entities:
       - group.multisensor
   multisensor:
+    name: emmasensor
     entities:
       - sensor.aeotec_zw100_multisensor_6_temperature_5_1
-      - sensor.aeotec_zw100_multisensor_6_ultraviolet_5_27
