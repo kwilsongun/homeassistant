@@ -63,3 +63,33 @@ sensor.aeotec_zw100_multisensor_6_alarm_level:
   name:
   platform: zwave
   unique_id: 2-72057594077528081
+sensor.aeotec_zw100_multisensor_6_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076479506
+sensor.aeotec_zw100_multisensor_6_luminance:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076479538
+sensor.aeotec_zw100_multisensor_6_relative_humidity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076479570
+sensor.aeotec_zw100_multisensor_6_ultraviolet:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076479922
+media_player.stua_2:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: a4d688e158eee21d396d9a82714aabc125e07f56b3ac902c88938b9cfc6aa10e
+remote.stua_2:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: a4d688e158eee21d396d9a82714aabc125e07f56b3ac902c88938b9cfc6aa10e
