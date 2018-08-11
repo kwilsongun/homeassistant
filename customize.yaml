@@ -15,4 +15,12 @@
       hidden: true
     sensor.aeotec_zw100_multisensor_6_ultraviolet:
       hidden: true
-        
+    sensor.aeotec_zw100_multisensor_6_luminance:
+      friendly_name: "Aeotec Luminance"
+      icon: mdi:brightness-7
+    sensor.kenneths_iphone_battery_level:
+      hidden: true
+    sensor.kenneths_iphone_battery_state:
+      hidden: true
+    zwave.aeotec_zw100_multisensor_6:
+      hidden: true
