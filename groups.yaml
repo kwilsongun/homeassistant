@@ -14,7 +14,6 @@
   
   living_room_view:
     name: Stue
-    view: true
     entities:
       - remote.stua
       - media_player.kjkken
