@@ -1,0 +1,4 @@
+  filter:
+    include_domains:
+      - sensor.aeotec_zw100_multisensor_6_temperature
+      - sensor.aeotec_zw100_multisensor_6_luminance
