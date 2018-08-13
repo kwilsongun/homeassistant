@@ -70,6 +70,14 @@ sensor:
   - platform: time_date
     display_options:
       - 'time'
+  - platform: arlo
+    monitored_conditions:
+      - captured_today
+      - last_capture
+      - total_cameras
+      - battery_level
+      - signal_strength
+
 #  - platform: spot_price
 #postal_code: 3030
 
