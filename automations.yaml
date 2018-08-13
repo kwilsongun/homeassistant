@@ -9,10 +9,10 @@
   
   #Arlo
   - alias: Enable Arlo upon HA start'
-  initial_state: 'on'
-  trigger:
-    platform: homeassistant
-    event: start
-  action:
-    service: camera.enable_motion_detection
-    entity_id: camera.arlo_frontdoor
+    initial_state: 'on'
+    trigger:
+      platform: homeassistant
+      event: start
+    action:
+      service: camera.enable_motion_detection
+      entity_id: camera.arlo_frontdoor
