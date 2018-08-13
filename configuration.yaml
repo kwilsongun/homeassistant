@@ -70,13 +70,13 @@ sensor:
   - platform: time_date
     display_options:
       - 'time'
-  - platform: arlo
-    monitored_conditions:
-      - captured_today
-      - last_capture
-      - total_cameras
-      - battery_level
-      - signal_strength
+  #- platform: arlo
+  #  monitored_conditions:
+  #    - captured_today
+  #    - last_capture
+  #    - total_cameras
+  #    - battery_level
+  #    - signal_strength
 
 #  - platform: spot_price
 #postal_code: 3030
@@ -97,9 +97,9 @@ ios:
 zwave:
   usb_path: /dev/ttyACM1
 
-arlo:
-  username: !secret arlo_user
-  password: !secret arlo_pass
+#arlo:
+#  username: !secret arlo_user
+#  password: !secret arlo_pass
 
 
 group: !include groups.yaml
