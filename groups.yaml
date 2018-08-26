@@ -2,10 +2,11 @@
     view: yes
     icon: mdi:home
     entities:
-      - group.multisensor
-      - group.living_room_view
+      - group.bedroom_emma
+      #- group.living_room_view
+      - group.outside
 
-  multisensor:
+  bedroom_emma:
     name: Soverom Emma
     entities:
       - sensor.aeotec_zw100_multisensor_6_temperature
@@ -18,7 +19,12 @@
       - remote.stua
       - media_player.kjkken
 
-  other_view:
-    name: Annet
+  outside:
+    name: Ute
     entities:
-      - sensor.yr
+      - sensor.temp_ute_temperature
+      - sensor.yr_humidity
+      - sensor.yr_cloudiness
+      - sensor.yr_dewpoint_temperature
+      - sensor.yr_precipitation
+      - sensor.yr_wind_speed
