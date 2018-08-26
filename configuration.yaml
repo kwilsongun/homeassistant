@@ -95,7 +95,7 @@ media_player:
 ios:
 
 zwave:
-  usb_path: /dev/ttyACM1
+  usb_path: /dev/ttyACM0
 
 #arlo:
 #  username: !secret arlo_user
